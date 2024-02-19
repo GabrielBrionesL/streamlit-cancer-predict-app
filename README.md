@@ -1,13 +1,13 @@
 # Breast Cancer Predictor deployed on Streamlit
 
-This code consists of two parts: a Python script for training a logistic regression model on breast cancer data, and a Streamlit web app for predicting breast cancer diagnosis based on user input.
+This code consists of four parts: a `model` folder that contains Python script for training a logistic regression model on breast cancer data, an `app` folder that contains Streamlit web app for predicting breast cancer diagnosis based on user input, an `assets` folder that contains a CSS script to customize the Streamlit web app, and a `data` folder that contains the [Breast Cancer Wisconsin (Diagnostic) Data Set](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data)
 
 ### Part 1: Model Training
 
 The script begins by importing necessary libraries, including Pandas for data manipulation, scikit-learn for machine learning operations, and Pickle for model serialization.
 
 #### Function `get_clean_data()`:
-- [Reads a CSV file containing breast cancer data.](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data)
+- Reads a CSV file containing breast cancer data.
 - Drops unnecessary columns ('Unnamed: 32', 'id').
 - Maps the 'diagnosis' column values ('M' for malignant and 'B' for benign) to numerical values (1 and 0).
 
