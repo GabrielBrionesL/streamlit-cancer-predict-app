@@ -1,4 +1,4 @@
-# Breast Cancer Predictor deployed on Streamlit
+# Breast Cancer Predictor - Streamlit Web App
 
 This code consists of four parts: 
 - `model` folder that contains Python script for training a logistic regression model on breast cancer data
