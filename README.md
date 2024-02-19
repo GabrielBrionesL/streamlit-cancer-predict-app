@@ -1,6 +1,10 @@
 # Breast Cancer Predictor deployed on Streamlit
 
-This code consists of four parts: a `model` folder that contains Python script for training a logistic regression model on breast cancer data, an `app` folder that contains Streamlit web app for predicting breast cancer diagnosis based on user input, an `assets` folder that contains a CSS script to customize the Streamlit web app, and a `data` folder that contains the [Breast Cancer Wisconsin (Diagnostic) Data Set](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data)
+This code consists of four parts: 
+- `model` folder that contains Python script for training a logistic regression model on breast cancer data
+- `app` folder that contains Streamlit web app for predicting breast cancer diagnosis based on user input
+- `assets` folder that contains a CSS script to customize the Streamlit web app
+- `data` folder that contains the [Breast Cancer Wisconsin (Diagnostic) Data Set](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data)
 
 ### Part 1: Model Training
 
