@@ -2,7 +2,7 @@
 
 Thank you to [Alejandro AO](https://github.com/alejandro-ao) for the walkthrough!
 
-This code consists of four parts: 
+This repository consists of four parts: 
 - `model` folder that contains Python script for training a logistic regression model on breast cancer data
 - `app` folder that contains Streamlit web app for predicting breast cancer diagnosis based on user input
 - `assets` folder that contains a CSS script to customize the Streamlit web app
